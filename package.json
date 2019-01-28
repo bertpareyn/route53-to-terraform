@@ -1,0 +1,19 @@
+{
+  "name": "route53-to-terraform",
+  "version": "0.0.1",
+  "description": "Ingest Route 53 Hosted Zone export and output Terraform configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bp323/route53-to-terraform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bp323/route53-to-terraform/issues"
+  },
+  "homepage": "https://github.com/bp323/route53-to-terraform#readme",
+  "devDependencies": {
+    "optimist": "^0.6.1"
+  }
+}
