@@ -17,7 +17,7 @@ let soaRecord = require('./recordtypes/soa.js');
 //////////////////////
 
 var argv = require('optimist')
-  .usage('Usage: $0 -i path_to_inputfile.json -o path_to_outputfile.tf')
+  .usage('Usage: $0 -i path_to_inputfile.json -o path_to_outputfile.tf -z hosted_zone_id')
 
   .alias('i', 'input')
   .describe('i', 'The input json file')
